@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>St. Lawrence Market - Home</title>
+</head>
+<body onclick="ocultar()">
+    <header>
+        <div>
+            <img class="logo" src="img/logo.png" alt="">
+        </div>
+        <div>
+            <ul class="lista-header">
+                <ul onmouseenter="mostrar()">Filmes
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="lista-li-1">
+                        <li>Comédia</li>
+                        <li>Ação</li>
+                        <li>Terror</li>
+                    </div>
+                </ul>
+                <ul onmouseover="ocultar()">Cinemas</ul>
+                <ul onmouseover="ocultar()">eventos</ul>
+                <ul onmouseenter="mostrar2()">Séries
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="lista-li-2">
+                        <li>Comédia</li>
+                        <li>Ação</li>
+                        <li>Terror</li>
+                    </div>
+                </ul>
+                <ul  onmouseover="ocultar()">Livro</ul>
+                <ul>HQ's</ul>
+            </ul>
+        </div>
+    </header>
+    <script src="javascript.js"></script>
+</body>
+</html>

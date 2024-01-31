@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    list-style: none
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family:Roboto;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    margin-left: 30px;
+    margin: 10px auto;
+    width: 80px;
+}
+
+.lista-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.lista-header ul {
+    padding: 2px 0;
+    margin: auto 10px;
+    height: 100%;
+    border-bottom: 2px solid transparent;
+}
+
+.lista-header ul:hover {
+    border-bottom: 2px solid red;
+}
+
+.lista-li-1, .lista-li-2 {
+    padding: 13px;
+    display: none;
+    position: fixed;
+    margin-left: -20px;
+    margin-top: 23px;
+    background-color: white;
+    box-shadow: 0px 20px 6px 1px rgba(0, 0, 0, 0.2);
+}
+
+.lista-li-1 li, .lista-li-2 li {
+    margin: 3px auto;
+    cursor: pointer;
+}
+
+.lista-li-1 li:hover, .lista-li-2 li:hover {
+    color: red;
+}
+
+.fa-angle-down {
+    color: black;
+    margin-left: 3px;
+}
